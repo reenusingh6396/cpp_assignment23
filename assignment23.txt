@@ -1,0 +1,113 @@
+#include<iostream>
+using namespace std;
+//1. Write a C++ program to print Hello MySirG on the screen.
+int main()
+{
+    cout<<"Hello "<<"MySirG";
+}
+
+//2. Write a C++ program to print Hello on the first line and MySirG on the second line using endl.
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello"<<endl<<"MySirG";
+}
+
+//3. Write a C++ program to calculate the sum of two numbers.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=5,b=6;
+    cout<<a+b;
+}
+
+//4. Write a C++ program to calculate the area of a circle
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float A,r=5;
+    A=3.14*r*r;
+    cout<<A;
+}
+
+//5. Write a C++ program to calculate the volume of a cuboid.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float l=1.5,b=2.0,w =1.4,v;
+    v=l*b*w;
+    cout<<v;
+}
+
+//6. Write a C++ program to calculate an average of 3 numbers.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a=30,b=40,c=50;
+float Avg;
+Avg=(a+b+c)/3;
+cout<<Avg;
+}
+
+//7. Write a C++ program to calculate the square of a number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x=5,sqr;
+    sqr=x*x;
+    cout<<sqr;
+}
+
+//8. Write a C++ program to swap values of two int variables without using third variable
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x=10,y=20;
+    cout<<"values of two int variables before swapping"<<endl<<"x = "<<x<<endl<<"y = "<<y<<endl;
+    x=x+y;
+    y=x-y;
+    x=x-y;
+    cout<<"after swapping"<<endl<<"x = "<<x<<endl<<"y = "<<y;
+}
+
+//9. Write a C++ program to find the maximum of two numbers.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y;
+    cout<<"enter two numbers";
+    cin>>x>>y;
+    if(x>y)
+        cout<<x<<" is maximum";
+    else
+        cout<<y<<" is maximum";
+}
+
+
+//10. Write a C++ program to add all the numbers of an array of size 10
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a[10]={2,5,7,1,9,10,5,3,21,4};
+    int sum=0,i;
+    for(i=0;i<10;i++)
+        sum+=a[i];
+    cout<<"sum of array element = "<<sum;
+}
